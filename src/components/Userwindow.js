@@ -1,10 +1,14 @@
 import "../styles/Userwindow.css";
-const Userwindow = () => {
-    return (
-        <div className="user-window">
-            Userwindow1
-        </div>
-    )
-}
+import User from "./User";
 
-export default Userwindow
+
+const Userwindow = () => {
+  return (
+    <div className="user-window">
+      <User name="user"  />
+      <User name="agent" />
+    </div>
+  );
+};
+
+export default Userwindow;

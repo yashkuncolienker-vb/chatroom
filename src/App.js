@@ -38,10 +38,11 @@ function App() {
     },
   ];
   const [chats, setChats] = useState(chathistory);
-  
+  const [user, setUser] = useState("user");
+
   const onAdd = (chatData) => {
    
-    setChats([ ...chats, { _id: chats.length+1,sender:"user",...chatData} ])
+    setChats([ ...chats, { _id: chats.length+1,sender:user,...chatData} ])
   } 
 
   return (
