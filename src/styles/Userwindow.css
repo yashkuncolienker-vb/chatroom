@@ -1,4 +1,11 @@
 .user-window{
-    background-color: blue;
+    background-color: #2a2c43;
     height: 100vh;
+}
+.header-userwindow{
+    height: 10vh;
+}
+
+.heading{
+    color: white;
 }

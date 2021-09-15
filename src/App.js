@@ -45,7 +45,6 @@ function App() {
   };
   const onUserClick = (userData) => {
     setUser(userData);
-    console.log(chats)
   };
  
   return (

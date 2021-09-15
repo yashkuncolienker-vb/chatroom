@@ -1,6 +1,21 @@
-.user{
-    background-color:red;
+.user, .agent{
+    
+    color: #f2f6fd;
+    border-radius: 20px;
+    margin: 5px 10px;
+    user-select: none;
+    cursor: pointer;
 }
-.agent{
-    background-color: green;
+.user h5,.agent h5{
+    margin-left: 15px;
+}
+.user:hover, .agent:hover{
+    background-color: #466eef;
+}
+
+.bg-1{
+    background-color:#2c335a;
+}
+.bg-2{
+    background-color: #466eef;
 }

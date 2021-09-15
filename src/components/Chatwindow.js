@@ -7,7 +7,9 @@ const Chatwindow = ({ chats, onAdd }) => {
     <div className="chat-window">
       <div className="header">Header</div>
       <div className="canvas">
-        {chats.map( (data, i)=> <Chat key={i} data={data} />)}
+        {chats.map((data, i) => (
+          <Chat key={i} data={data} />
+        ))}
       </div>
       <ChatInput className="footer" onAdd={onAdd} />
     </div>
