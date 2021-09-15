@@ -2,11 +2,11 @@ import "../styles/Userwindow.css";
 import User from "./User";
 
 
-const Userwindow = () => {
+const Userwindow = ({onUserClick}) => {
   return (
     <div className="user-window">
-      <User name="user"  />
-      <User name="agent" />
+      <User onUserClick={onUserClick} name="user"  />
+      <User onUserClick={onUserClick} name="agent" />
     </div>
   );
 };
