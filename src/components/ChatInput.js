@@ -13,10 +13,19 @@ const ChatInput = ({ onAdd }) => {
     }
   };
   return (
-    <form onSubmit={onSubmit}>
-      <input type="text" ref={chatMessage} placeholder="Type Something" />
-      <button type="submit">Add</button>
-    </form>
+    <div className="footer">
+      <form onSubmit={onSubmit}>
+        <div className="inputbar">
+          <input
+            type="text"
+            className="cinput"
+            ref={chatMessage}
+            placeholder="Type Something"
+          />
+          <button className="cbutton" type="submit"></button>
+        </div>
+      </form>
+    </div>
   );
 };
 

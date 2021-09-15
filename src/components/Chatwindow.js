@@ -7,11 +7,13 @@ const Chatwindow = ({ chats, onAdd }) => {
     <div className="chat-window">
       <div className="header">Header</div>
       <div className="canvas">
-        {chats.map((data, i) => (
-          <Chat key={i} data={data} />
-        ))}
+        <div className="screen">
+          {chats.map((data, i) => (
+            <Chat key={i} data={data} />
+          ))}
+        </div>
       </div>
-      <ChatInput className="footer" onAdd={onAdd} />
+      <ChatInput className="iform" onAdd={onAdd} />
     </div>
   );
 };

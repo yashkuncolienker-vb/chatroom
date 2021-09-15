@@ -7,7 +7,7 @@ const Userwindow = ({ onUserClick }) => {
   return (
     <div className="user-window">
       <div className="header-userwindow d-flex direction-column justify-content-center">
-        <h3 className="heading mt-2">ChatApp</h3>
+        <h3 className="heading mt-2">Chat-App</h3>
       </div>
       <User
         onUserClick={onUserClick}
