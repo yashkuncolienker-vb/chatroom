@@ -1,15 +1,14 @@
-import { useState, useRef } from "react";
+import { useRef } from "react";
 
-
-
-const ChatInput = () => {
-  const [chat, setChat] = useState({});
+const ChatInput = ({ onAdd }) => {
   const chatMessage = useRef("");
   const onSubmit = (e) => {
     e.preventDefault();
     if (chatMessage.current.value) {
-      
-      console.log({message:chat, createdAt: Date.now()});
+      onAdd({
+        message: chatMessage.current.value,
+        createdAt: new Date().toISOString(),
+      });
       chatMessage.current.value = "";
     }
   };

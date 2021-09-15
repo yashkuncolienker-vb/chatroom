@@ -3,6 +3,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+  
 }
 
 .header{
@@ -13,6 +14,7 @@
 .canvas{
     background-color: pink;
     min-height: 80%;
+    overflow-y: scroll;
 }
 
 .footer{

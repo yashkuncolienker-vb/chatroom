@@ -38,13 +38,17 @@ function App() {
     },
   ];
   const [chats, setChats] = useState(chathistory);
-
+  
+  const onAdd = (chatData) => {
+   
+    setChats([ ...chats, { _id: chats.length+1,sender:"user",...chatData} ])
+  } 
 
   return (
     <div>
       <Row className="w-100 m-0 p-0">
         <Col xs={9} className="m-0 p-0">
-          <Chatwindow chats={chats} />
+          <Chatwindow chats={chats} onAdd={onAdd}/>
         </Col>
         <Col xs={3} className="m-0 p-0">
           <Userwindow />

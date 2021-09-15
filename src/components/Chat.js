@@ -4,7 +4,7 @@ const Chat = ({data}) => {
     return (
         <div>
             <p>{data.message}</p>
-            <ReactTimeAgo date={data.createdAt} locale="en-US"/>
+            <ReactTimeAgo date={Date.parse(data.createdAt)} locale="en-US"/>
         </div>
     )
 }
