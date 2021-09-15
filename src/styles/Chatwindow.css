@@ -1,4 +1,21 @@
 .chat-window{
     background-color: red;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: green;
+    min-height: 10%;
+}
+
+.canvas{
+    background-color: pink;
+    min-height: 80%;
+}
+
+.footer{
+    background-color: #fff;
+    min-height: 10%;
 }
