@@ -7,7 +7,7 @@ const Chatwindow = ({ chats }) => {
     <div className="chat-window">
       <div className="header">Header</div>
       <div className="canvas">
-        {chats.map( (data, i)=> <Chat key={i} message={data.message}/>)}
+        {chats.map( (data, i)=> <Chat key={i} data={data}/>)}
       </div>
       <ChatInput className="footer" />
     </div>

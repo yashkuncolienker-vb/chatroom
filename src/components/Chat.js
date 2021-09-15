@@ -1,8 +1,10 @@
+import ReactTimeAgo from 'react-time-ago'
 
-const Chat = ({message}) => {
+const Chat = ({data}) => {
     return (
         <div>
-            <p>{message}</p>
+            <p>{data.message}</p>
+            <ReactTimeAgo date={data.createdAt} locale="en-US"/>
         </div>
     )
 }
