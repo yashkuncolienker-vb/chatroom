@@ -1,33 +1,32 @@
-
-.chat-body{
-    margin-bottom: 0;
-    background-color: #fff;
-    padding: 10px;
-    max-width: 50%;
-    word-wrap: break-word;
-    border-radius: 15px;
+.chat-body {
+  margin-bottom: 0;
+  background-color: #fff;
+  padding: 10px;
+  max-width: 50%;
+  word-wrap: break-word;
+  border-radius: 15px;
 }
 
-.chat-container{
-    width: 80%;
-    padding-left: 15px;
+.chat-container {
+  width: 80%;
+  padding-left: 15px;
 }
 
-.user-align{
-    padding-right: 15px;
-    padding-left: 0;
+.user-align {
+  padding-right: 15px;
+  padding-left: 0;
 }
 
-.user-chat-style{
-    background-color: #2085fe;
-    color: white;
+.user-chat-style {
+  background-color: #6a30ff;
+  color: white;
 }
 
-.agent-chat-style{
-    background-color: #424e5a;
-    color: white;
+.agent-chat-style {
+  background-color: #f3f3f5;
+  color: black;
 }
 
-.timestamp{
-    font-size: 0.9rem;
+.timestamp {
+  font-size: 0.9rem;
 }

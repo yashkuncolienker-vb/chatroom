@@ -7,16 +7,16 @@ const Chatwindow = ({ chats, onAdd }) => {
   const msg = useRef(null);
   useEffect(() => {
     if (msg) {
-      msg.current.addEventListener('DOMNodeInserted', event => {
+      msg.current.addEventListener("DOMNodeInserted", (event) => {
         const { currentTarget: target } = event;
-        target.scroll({ top: target.scrollHeight, behavior: 'smooth' });
+        target.scroll({ top: target.scrollHeight, behavior: "smooth" });
       });
     }
-  }, [])
+  }, []);
 
   return (
     <div className="chat-window">
-      <div className="header">Header</div>
+      <div className="header"></div>
       <div className="canvas">
         <div className="screen" ref={msg}>
           {chats.map((data, i) => (

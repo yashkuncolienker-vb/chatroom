@@ -1,17 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-
-
-.user-window{
-    background-color: #2a2c43;
-    height: 100vh;
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.user-window {
+  background-color: white;
+  height: 100vh;
 }
-.header-userwindow{
-    height: 10vh;
+.header-userwindow {
+  height: 10vh;
 }
 
-.heading{
-    color: white;
-    letter-spacing: 3px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.5rem;
+.heading {
+  color: black;
+  letter-spacing: 3px;
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+  position: relative;
+}
+
+.logo {
+  width: 45px;
+  display: inline-block;
+  height: 40px;
+  bottom: 10px;
+  left: -30px;
+  z-index: 0;
+  position: absolute;
+  background: url("/src/assets/send.png") no-repeat;
 }
