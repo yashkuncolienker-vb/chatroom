@@ -23,14 +23,13 @@
 .screen {
   overflow-y: scroll;
   max-height: 100%;
+  padding-right: 15px;
 }
 .iform {
   background-color: #2a2c43;
   box-sizing: border-box;
 }
-::-webkit-scrollbar {
-  width: 0px;
-}
+
 .footer {
   max-height: 15%;
   background-color: #2a2c43;
@@ -66,4 +65,12 @@
   width: 38px;
   height: 30px;
   background: url("/src/assets/send.png") no-repeat;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: rgba(66,78,90,0.1); 
 }

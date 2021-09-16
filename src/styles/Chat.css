@@ -1,14 +1,4 @@
-.chat{
-    margin: 8px;
-    padding: 10px;
-}
 
-.user-chat{
-    background-color: red;
-}
-.agent-chat{
-    background-color: green;
-}
 .chat-body{
     margin-bottom: 0;
     background-color: #fff;
@@ -26,4 +16,18 @@
 .user-align{
     padding-right: 15px;
     padding-left: 0;
+}
+
+.user-chat-style{
+    background-color: #2085fe;
+    color: white;
+}
+
+.agent-chat-style{
+    background-color: #424e5a;
+    color: white;
+}
+
+.timestamp{
+    font-size: 0.9rem;
 }
