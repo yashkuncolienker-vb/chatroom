@@ -1,0 +1,29 @@
+.chat{
+    margin: 8px;
+    padding: 10px;
+}
+
+.user-chat{
+    background-color: red;
+}
+.agent-chat{
+    background-color: green;
+}
+.chat-body{
+    margin-bottom: 0;
+    background-color: #fff;
+    padding: 10px;
+    max-width: 50%;
+    word-wrap: break-word;
+    border-radius: 15px;
+}
+
+.chat-container{
+    width: 80%;
+    padding-left: 15px;
+}
+
+.user-align{
+    padding-right: 15px;
+    padding-left: 0;
+}
