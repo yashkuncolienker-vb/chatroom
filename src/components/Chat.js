@@ -21,8 +21,8 @@ const Chat = ({ data }) => {
         fluid
       ></Image>
       <div
-        className={`chat-container ${
-          bool && "d-flex flex-column align-items-end user-align "
+        className={`chat-container d-flex flex-column ${
+          bool ? "align-items-end user-align" : "align-items-start"
         }`}
       >
         <p

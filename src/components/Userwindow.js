@@ -11,6 +11,7 @@ const Userwindow = ({ onUserClick }) => {
           <span className="logo"></span>ChatApp
         </h3>
       </div>
+
       <User
         onUserClick={onUserClick}
         id={0}
